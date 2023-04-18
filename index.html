@@ -2,13 +2,25 @@
 <head>
     <meta charset="UTF-8">
     <title>👽 Orhan's Personal Site</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-   <table cellspacing="20">
+
+    <!-- at the following line I tried something new-->
+    <img class="broccoli" src="https://em-content.zobj.net/thumbs/120/apple/354/broccoli_1f966.png" alt="broccoli">
+    <a class="broccoli-emoji"> 🥦 </a>
+   <table class="biography" cellspacing="20">
     <tr>
-        <td><a target="_blank" href="https://www.linkedin.com/in/orhanizma/"><img src="images/orhan.png" alt="orhan profile picture" width="150" height="150"></a></td>
+        <td><a target="_blank" href="https://www.linkedin.com/in/orhanizma/">
+            
+            <div class="img-container">
+            <img id="orhan-png" src="images/orhan.png" alt="orhan profile picture" width="150" height="150"></a>
+            <div class="bottom-left">click me</div>
+            </div>
+
+        </td>
         <td>
-        <h1 style="color:darkred"> Orhan Kaygın</h1>
+        <h1 id="heading" style="color:darkred"> Orhan Kaygın</h1>
     <p><em> Subtitle translator in <strong><a target="_blank" href="https://iyuno-sdi.com">IYUNO</a>
          <a target="_blank" href="https://sarandigitalstudios.com.tr/en/index2.html">Saran Digital Studios</a> and 
          <a target="_blank" href="https://www.bydeluxe.com/"> Deluxe Media Entertainment.</a></strong></em></p>
@@ -21,21 +33,18 @@
         <hr size="3" color="darkred" noshade>
 
         <h3>Education</h3>
-        <ul>
-        <li>Medical Vocational High School (Emergency Medical Technician) - <em>Bekir Gungor Anadolu Saglik Meslek Lisesi</em></li>
-        <li>Pedagogical Formation (English Language Teaching) - <em>Bolu Abant Izzet Baysal University</em></li>
-        <li>Translation and Inderpreting (English) - <em>Bolu Abant Izzet Baysal University</em></li>
-        </ul>
+
+        <p>Medical Vocational High School (Emergency Medical Technician) - <em>Bekir Gungor Anadolu Saglik Meslek Lisesi</em></p>
+        <p>Pedagogical Formation (English Language Teaching) - <em>Bolu Abant Izzet Baysal University</em></p>
+        <p>Translation and Inderpreting (English) - <em>Bolu Abant Izzet Baysal University</em></p>
+
         <hr size="3" color="darkred" noshade>
         <h3>My Hobbies</h3>
-        <ol>
-        <li>Playing an instrument.</li>
-        <ul>
-            <li>I am playing the bass and learning the piano.</li>
-        </ul>
-        <li>Petting my cat.</li>
-        <li>Discovering new songs and movies.</li>
-        </ol>
+
+        <p>Petting my cat.</p>
+        <p>Playing an instrument.</p>
+        <p>Discovering new songs and movies.</p>
+
         <hr size="3" color="darkred" noshade>
         <h3>Work Experience</h3>
         <table cellspacing="10">
@@ -55,12 +64,6 @@
                 <td>Freelance Translator at Iyuno and Saran Digital Studios</td>
             </tr>
             </tbody>
-            <tfoot>
-                <tr>
-                    <td>Table Foot 1</td>
-                    <td>Table Foot 2</td>
-                </tr>
-            </tfoot>
         </table>
         <hr size="3" color="darkred" noshade>
         <h3>Skills</h3>
@@ -81,8 +84,8 @@
 
         <hr size="3" color="darkred" noshade>
 
-        <strong><a target="_blank" href="contact.html">Contact Me</a></strong>
-
-        <hr size="6" color="black" noshade>
+        <strong><a style="font-size:x-large;" target="_blank" href="contact.html">CONTACT ME</a></strong>
+        
+        <hr size="6" color="black" noshade style="border-color: black; width:100%;">
  </body>
 </html>
