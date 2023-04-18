@@ -1,0 +1,65 @@
+/****************************** TAG SELECTORS ******************************/
+body {background-color: #D8D8D8;
+}
+hr {border-style: none;
+    border-top-style: dashed;
+    background-color: #D8D8D8;
+    border-color: darkred;
+    width: 30%;
+    border-top-width: 3px;
+}
+h3 {color: #332C39;
+}
+h1 {color: #332C39;
+}
+body {
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    
+}
+
+li {
+    display: block;
+}
+
+table, th, td {
+    border: 2px solid black;
+    background-color: #c6c6c6;
+    padding: 5px;
+    margin: auto;
+}
+/****************************** CLASS SELECTORS ******************************/
+.broccoli {                 /* text-align did not work so I did this */
+    float: left; 
+    width: 150px;
+    height: 150px;  
+}
+.broccoli-emoji {           /* just to compare image and text-emoji */
+    float: right;
+    font-size: 150px;
+}
+.biography {
+    margin:none;
+    text-align:left;
+    width: 100%;
+}
+.img-container {
+    position: relative;
+    text-align: center;
+    color: #c6c6c6;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 4px;
+    left: 2px;
+    font-size: x-small;
+}
+/****************************** ID SELECTORS ******************************/
+#heading {
+    text-align: center;
+    margin-right: 10%;         /* you can delete this property */
+}
+#orhan-png:hover {
+    background-color: rgb(50, 50, 50);
+}
